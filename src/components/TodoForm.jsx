@@ -22,6 +22,7 @@ function TodoForm() {
                 className="w-full border 
                 border-black/10 rounded-l-lg 
                 px-3 outline-none duration-150 
+                text-black
                 bg-[#e6f0f2] py-1.5"
                 value={todo}
                 onChange={(e) => setTodo(e.target.value)}
